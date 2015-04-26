@@ -1,12 +1,12 @@
 # start emacs
-if [ -z "$EMACS" ]; then
-    $(which emacsclient) -t
-    ret=$?
-    if [ $ret -ne 0 ]; then
-        $(which emacs) --funcall=multi-term
-    fi
-    exit
-fi
+# if [ -z "$EMACS" ]; then
+#    $(which emacsclient) -t
+#    ret=$?
+#    if [ $ret -ne 0 ]; then
+#        $(which emacs) --funcall=multi-term
+#    fi
+#    exit
+#fi
 # Set emacs
 if [[ $EMACS = t ]]; then
     unsetopt zle
