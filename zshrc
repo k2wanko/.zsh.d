@@ -72,36 +72,3 @@ do
 done
 
 export PATH="/usr/local/bin:$HOME/bin:$HOME/.nodebrew/current/bin:/usr/local/opt/rbenv/shims/:$HOME/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$GOROOT/bin:$GOPATH/bin:$NACL_HOME:$NACL_HOME/pepper_34/toolchain/mac_pnacl/bin:/usr/local/Cellar/llvm/3.4/bin/:$DART_HOME/bin:$GOOGLE_CLOUD_HOME/bin:$HEROKU_HOME/bin:$DEPOT_TOOLS_ROOT:$COCOS_CONSOLE_ROOT:$HOME/dex2jar/:$NDK_ROOT:/Users/kazu/android-sdk/platforms/android-4/tools/"
-
-export TERM=xterm-256color
-
-_addPath(){
-    export PATH=$PATH:$1
-}
-
-_addPath $HOME/google-cloud-sdk/bin
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-#[ -s "/usr/local/opt/nvm/nvm.sh" ] && . "/usr/local/opt/nvm/nvm.sh" # This loads nvm
-
-
-# added by travis gem
-[ -f /Users/kazu/.travis/travis.sh ] && source /Users/kazu/.travis/travis.sh
-
