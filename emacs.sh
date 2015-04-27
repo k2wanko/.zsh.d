@@ -1,1 +1,2 @@
-alias e=$(which emacsclient)
+EDITOR="$(which emacsclient) -t"
+alias e=$EDITOR
