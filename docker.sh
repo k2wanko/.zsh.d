@@ -1,4 +1,4 @@
-DOCKER_MACHINE_NAME="dev"
+DOCKER_MACHINE_NAME="dev-1"
 (docker-machine start $DOCKER_MACHINE_NAME 1> /dev/null &)
 eval "$(docker-machine env $DOCKER_MACHINE_NAME)"
 
